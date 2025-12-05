@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "plantbasedleather",
+    "name": "PlantBasedLeather",
+    "authors": [
+        "Necromunger",
+        "Eiymii"
+    ],
+    "description": "Adds plant based leather as an alternative to leather",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
