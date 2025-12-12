@@ -1,3 +1,13 @@
 {
-  "plantbasedleather:item-plantbasedleather": "Plant-based leather"
+  "plantbasedleather:item-plantbasedleather-normal-plain": "Plant-based Leather",
+  "plantbasedleather:item-plantbasedleather-normal-orange": "Orange plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-black": "Black plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-red": "Red plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-blue": "Blue plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-purple": "Purple plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-pink": "Pink plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-white": "White plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-yellow": "Yellow plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-gray": "Gray plant-based leather",
+  "plantbasedleather:item-plantbasedleather-normal-green": "Green plant-based leather"
 }

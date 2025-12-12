@@ -26,19 +26,18 @@
 			scale: 0.65
 		},
 		handbook: {
-			groupBy: ["plant-leather-*"]
+			groupBy: ["plantbasedleather-*"]
 		}
 	},
 	variantgroups: [
-		{ code:"type", states: ["normal", "sturdy"] },
+		{ code:"type", states: ["normal"] },
 		{ code:"color", states: ["plain", "orange", "black", "red", "blue", "purple", "pink", "white", "yellow", "gray", "green"] }
 	],
 	allowedVariants: [
-		"plant-leather-normal-*",
-		"plant-leather-sturdy-plain"
+		"plantbasedleather-normal-*"
 	],
-	texturesByType: {
-		"*": { "leather":  { base: "block/leather/{color}"  } }
+	textures: {
+		"color": { base: "item/plantleather/{color}" }
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	maxstacksize: 64,
