@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "R	L",
+		requiresTrait: "improviser",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"L": { type: "item", code: "plantbasedleather-normal-plain" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:sling", quantity: 1  }
+	}
+]

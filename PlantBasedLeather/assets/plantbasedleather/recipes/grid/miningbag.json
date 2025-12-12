@@ -1,0 +1,15 @@
+[
+	{
+		ingredientPattern: "_T_,PLP,SSS",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "block", code: "game:linen-*", quantity: 2 },
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["iron", "meteoriciron", "steel"] },
+			"S": { type: "item", code: "game:leather-sturdy-plain", quantity: 3 }
+		},
+		width: 3,
+		height: 3,
+		name: "miningbag",
+		output: { type: "item", code: "game:miningbagsturdy"  }
+	}
+]

@@ -1,0 +1,15 @@
+[
+	{
+		ingredientPattern: "LPL,PCP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"] },
+			"C": { type: "item", code: "game:armor-head-chain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], recipeAttributes: { repairMat: { type:"item", code: "game:metalchain-{metal}", stacksize: 4 } } },
+			"L": { type: "item", code: "plantbasedleather-normal-plain" }
+		},
+		width: 3,
+		height: 2,
+		name: "plate helmet",
+		output: { type: "item", code: "game:armor-head-plate-{metal}"  }
+	}
+]

@@ -1,0 +1,126 @@
+[
+{
+	ingredientPattern: "L,N",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 1 },
+		"N": { type: "item", code: "game:metalnailsandstrips-tinbronze", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	name: "head medallion",
+	output: { type: "item", code: "game:hoovedwearables-face-face1"  }
+},
+{
+	ingredientPattern: "LNL",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 1 },
+		"N": { type: "item", code: "game:metalnailsandstrips-tinbronze", quantity: 1 }
+	},
+	width: 3,
+	height: 1,
+	name: "head medallion",
+	output: { type: "item", code: "game:hoovedwearables-face-face5"  }
+},
+{
+	ingredientPattern: "LL,NN",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 1 },
+		"N": { type: "item", code: "game:metalnailsandstrips-tinbronze", quantity: 1 }
+	},
+	width: 2,
+	height: 2,
+	name: "head medallion",
+	output: { type: "item", code: "game:hoovedwearables-face-face7"  }
+},
+{
+	ingredientPattern: "_L_,_N_,_N_",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 1 },
+		"N": { type: "item", code: "game:metalnailsandstrips-tinbronze", quantity: 1 }
+	},
+	width: 3,
+	height: 3,
+	name: "head medallion",
+	output: { type: "item", code: "game:hoovedwearables-face-face13"  }
+},
+{
+	ingredientPattern: "MMM	LNL",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 2 },
+		"M": { type: "item", code: "plantbasedleather-normal-plain", quantity: 5 },
+		"N": { type: "item", code: "game:metalnailsandstrips-*", quantity: 2 }
+	},
+	width: 3,
+	height: 2,
+	name: "saddle",
+	output: { type: "item", code: "game:hoovedwearables-middleback-saddle1"  }
+},
+{
+	ingredientPattern: "LNL	MMM	LNL",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 2 },
+		"M": { type: "item", code: "plantbasedleather-normal-plain", quantity: 5 },
+		"N": { type: "item", code: "game:metalnailsandstrips-*", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	name: "saddlebags-normal",
+	output: { type: "item", code: "game:hoovedwearables-lowerbackside-saddlebags1"  }
+},
+{
+	ingredientPattern: "LNL	MMM	LNL",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-sturdy-plain", quantity: 2 },
+		"M": { type: "item", code: "game:leather-sturdy-plain", quantity: 5 },
+		"N": { type: "item", code: "game:metalnailsandstrips-*", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	name: "saddlebags-sturdy",
+	output: { type: "item", code: "game:hoovedwearables-lowerbackside-saddlebags2"  }
+},
+{
+	ingredientPattern: "LLL	L_L	LNL",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 1 },
+		"N": { type: "item", code: "game:metalnailsandstrips-*", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	name: "bridle1",
+	output: { type: "item", code: "game:hoovedwearables-head-bridle1"  }
+},
+{
+	ingredientPattern: "LNL	L_L	LLL",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 1 },
+		"N": { type: "item", code: "game:metalnailsandstrips-*", quantity: 2 }
+	},
+	width: 3,
+	height: 3,
+	name: "bridle2",
+	output: { type: "item", code: "game:hoovedwearables-head-bridle2"  }
+},
+{
+	ingredientPattern: "__M	LLL",
+	ingredients: {
+		"L": { type: "item", code: "plantbasedleather-normal-plain", quantity: 2 },
+		"M": { type: "item", code: "plantbasedleather-normal-plain", quantity: 1 }
+	},
+	width: 3,
+	height: 2,
+	name: "pillion-normal-leather",
+	output: { type: "item", code: "game:hoovedwearables-lowerbackside-pillion-leather"  }
+},
+{
+	ingredientPattern: "__M	LLL",
+	ingredients: {
+		"L": { type: "item", code: "game:leather-sturdy-plain", quantity: 2 },
+		"M": { type: "item", code: "game:leather-sturdy-plain", quantity: 1 }
+	},
+	width: 3,
+	height: 2,
+	name: "pillion-normal-leather",
+	output: { type: "item", code: "game:hoovedwearables-lowerbackside-pillion-sturdyleather"  }
+}
+]

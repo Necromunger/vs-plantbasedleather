@@ -1,0 +1,15 @@
+[
+	{
+		ingredientPattern: "SCS,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"S": { type: "item", code: "game:metalscale-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+			"C": { type: "item", code: "game:armor-head-chain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], recipeAttributes: { repairMat: { type:"item", code: "game:metalchain-{metal}", stacksize: 4 } } },
+			"L": { type: "item", code: "plantbasedleather-normal-plain" }
+		},
+		width: 3,
+		height: 2,
+		name: "scale helmet",
+		output: { type: "item", code: "game:armor-head-scale-{metal}"  }
+	}
+]

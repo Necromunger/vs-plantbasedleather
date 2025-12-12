@@ -1,5 +1,5 @@
 {
-	code: "plantbasedleather",
+	code: "plantleather",
 	shape: { base: "item/resource/plant-leather" },
 	behaviors: [{ 
 		name: "GroundStorable",
@@ -26,17 +26,18 @@
 			scale: 0.65
 		},
 		handbook: {
-			groupBy: ["plantbasedleather-*"]
+			groupBy: ["plantleather-*"]
 		}
 	},
 	variantgroups: [
-		{ code:"type", states: ["normal"] },
+		{ code:"type", states: ["normal", "sturdy"] },
 		{ code:"color", states: ["plain", "orange", "black", "red", "blue", "purple", "pink", "white", "yellow", "gray", "green"] }
 	],
 	allowedVariants: [
-		"plantbasedleather-normal-*"
+		"plantleather-normal-*"
 	],
 	texturesByType: {
+		"plantleather-sturdy-plain": { "plantleather":  { base: "item/plantleather/chromium"  } },
 		"*": { "plantleather":  { base: "item/plantleather/{color}"  } }
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
