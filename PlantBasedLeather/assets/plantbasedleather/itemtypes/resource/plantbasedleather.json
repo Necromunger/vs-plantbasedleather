@@ -44,8 +44,8 @@
 	materialDensity: 500,
 	guiTransform: {
 		rotation: { x: -180, y: 77, z: -53 },
-		origin: { x: 0.5, y: 0.1, z: 0.52 },
-		scale: 1.87
+		origin: { x: 0.60, y: 0.2, z: 0.45 },
+		scale: 1.65
 	},
 	fpHandTransform: {
 		translation: { x: 0.25, y: 0, z: 0 },
