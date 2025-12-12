@@ -37,7 +37,7 @@
 		"plantbasedleather-normal-*"
 	],
 	texturesByType: {
-		"*": { "plantleather":  { base: "block/leather/{color}"  } }
+		"*": { "plantleather":  { base: "item/plantleather/{color}"  } }
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	maxstacksize: 64,
