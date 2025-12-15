@@ -5,8 +5,8 @@
 		ingredients: {
 			"B": { type: "item", code: "game:bowstave-long-dry" },
 			"T": { type: "item", code: "game:flaxtwine" },
-			"L": { type: "item", code: "plantbasedleather-normal-plain" },
-			"F": { type: "item", code: "game:fat" }
+			"L": { type: "item", code: "plantleather-normal-plain" },
+			"F": { type: "item", code: "*", name: "fats", allowedVariants: ["game:fat", "plantbasedfat:plantbasedfat"] }
 		},
 		width: 3,
 		height: 3,
@@ -18,7 +18,20 @@
 		ingredients: {
 			"B": { type: "item", code: "game:bowstave-long-dry" },
 			"T": { type: "item", code: "game:flaxtwine" },
-			"L": { type: "item", code: "plantbasedleather-normal-plain" },
+			"L": { type: "item", code: "plantleather-normal-plain" },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:bow-long", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_FT	BLT	_FT",
+		recipeGroup: 1,
+		ingredients: {
+			"B": { type: "item", code: "game:bowstave-long-dry" },
+			"T": { type: "item", code: "game:flaxtwine" },
+			"L": { type: "item", code: "plantleather-normal-plain" },
 			"F": { type: "item", code: "game:resin" }
 		},
 		width: 3,
@@ -31,7 +44,7 @@
 		ingredients: {
 			"B": { type: "item", code: "game:bowstave-long-dry" },
 			"T": { type: "item", code: "game:flaxtwine" },
-			"L": { type: "item", code: "plantbasedleather-normal-plain" },
+			"L": { type: "item", code: "plantleather-normal-plain" },
 			"F": { type: "item", code: "game:beeswax" }
 		},
 		width: 3,
@@ -44,7 +57,7 @@
 		ingredients: {
 			"B": { type: "item", code: "game:bowstave-recurve-dry" },
 			"T": { type: "item", code: "game:flaxtwine" },
-			"L": { type: "item", code: "plantbasedleather-normal-plain" },
+			"L": { type: "item", code: "plantleather-normal-plain" },
 			"F": { type: "item", code: "game:bone" },
 			"M": { type: "item", code: "game:bushmeat-raw" }
 		},

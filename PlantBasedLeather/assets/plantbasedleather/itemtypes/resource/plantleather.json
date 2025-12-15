@@ -34,7 +34,8 @@
 		{ code:"color", states: ["plain", "orange", "black", "red", "blue", "purple", "pink", "white", "yellow", "gray", "green"] }
 	],
 	allowedVariants: [
-		"plantleather-normal-*"
+		"plantleather-normal-*",
+		"plantleather-sturdy-plain"
 	],
 	texturesByType: {
 		"plantleather-sturdy-plain": { "plantleather":  { base: "item/plantleather/chromium"  } },
