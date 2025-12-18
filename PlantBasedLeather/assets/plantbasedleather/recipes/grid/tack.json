@@ -70,8 +70,8 @@
 	{
 		ingredientPattern: "LNL	MMM	LNL",
 		ingredients: {
-			"L": { type: "item", code: "game:leather-sturdy-plain", quantity: 2 },
-			"M": { type: "item", code: "game:leather-sturdy-plain", quantity: 5 },
+			"L": { type: "item", code: "plantleather-sturdy-plain", quantity: 2 },
+			"M": { type: "item", code: "plantleather-sturdy-plain", quantity: 5 },
 			"N": { type: "item", code: "game:metalnailsandstrips-*", quantity: 2 }
 		},
 		width: 3,
@@ -115,8 +115,8 @@
 	{
 		ingredientPattern: "__M	LLL",
 		ingredients: {
-			"L": { type: "item", code: "game:leather-sturdy-plain", quantity: 2 },
-			"M": { type: "item", code: "game:leather-sturdy-plain", quantity: 1 }
+			"L": { type: "item", code: "plantleather-sturdy-plain", quantity: 2 },
+			"M": { type: "item", code: "plantleather-sturdy-plain", quantity: 1 }
 		},
 		width: 3,
 		height: 2,
