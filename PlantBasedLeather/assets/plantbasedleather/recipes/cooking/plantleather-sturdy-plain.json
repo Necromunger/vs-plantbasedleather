@@ -1,0 +1,39 @@
+{
+	code: "plantleater-sturdy-plain",
+	perishableProps: {
+		type: "None",
+		freshHours: { avg: 48 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "game:hide-chromium-large" }
+	},
+	shape: { base: "block/food/meal/liquid" },
+	ingredients: [
+		{ 
+			code: "chromium sulfate", 
+			validStacks: [ 
+				{ 
+					type: "item", 
+					code: "game:sulfate-full-chromite", 
+					shapeElement: "bowl/water"
+				}
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 3
+		},
+		{
+			code: "plantleather normal plain", 
+			validStacks: [ { type: "item", code: "plantleather-normal-plain" } ],
+			minQuantity: 3,
+			maxQuantity: 3
+		},
+		{
+			code: "honey", 
+			validStacks: [ { type: "item", code: "game:beeswax" } ],
+			minQuantity: 3,
+			maxQuantity: 3
+		}
+	],
+	cooksInto: { type: "Item", code: "plantleather-sturdy-plain", quantity: 3 }
+}
