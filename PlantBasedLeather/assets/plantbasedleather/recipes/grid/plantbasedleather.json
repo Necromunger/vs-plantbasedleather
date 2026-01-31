@@ -1,0 +1,13 @@
+[
+    {
+        ingredientPattern: "BFB,FWF,BFB",
+        ingredients: {
+            "B": { type: "item", code: "bamboofibers", quantity: 2 },
+            "F": { type: "item", code: "game:flaxfibers", quantity: 2 },
+            "W": { type: "item", code: "game:beeswax", quantity: 1 }
+        },
+        width: 3,
+        height: 3,
+        output: { type: "item", code: "plantleather-normal-plain", quantity: 1 }
+    }
+]
