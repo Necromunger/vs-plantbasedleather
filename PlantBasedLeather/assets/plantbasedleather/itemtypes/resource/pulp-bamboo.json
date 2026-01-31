@@ -6,14 +6,10 @@
 	variantgroups: [
 		{ code: "type", states: ["bamboo", "bamboo-soaked" ] }
 	],
-	shape: { base: "game:item/resource/pulp" },
+	shape: { base: "item/resource/pulpbamboo" },
 	texturesbyType: {
-		"*-bamboo": { 
-			"slakedlime": {base: "game:block/liquid/slakedlime" }
-		},
-		"*-bamboo-soaked": { 
-			"slakedlime": {base: "game:block/clay/fireclay" }
-		}
+		"*-bamboo": { "pulpbamboo": { base: "item/pulpbamboo/pulpbamboo" } },
+		"*-bamboo-soaked": { "pulpbamboo": { base: "item/pulpbamboo/pulpbamboo-soaked" } }
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	attributes: {
