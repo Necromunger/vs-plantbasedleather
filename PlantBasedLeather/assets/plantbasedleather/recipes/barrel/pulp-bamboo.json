@@ -1,0 +1,20 @@
+[
+	{
+		code: "pulp-bamboo-soaked",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:slakedlimeportion", litres: 10, consumelitres: 10 },
+			{ type: "item", code: "pulp-bamboo", quantity: 6 }
+		],
+		output: { type: "item", code: "pulp-bamboo-soaked", stackSize: 6 }
+	},
+    {
+		code: "pulp-bamboo-soaked",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dilutedboraxportion", litres: 10, consumelitres: 10 },
+			{ type: "item", code: "pulp-bamboo", quantity: 6 }
+		],
+		output: { type: "item", code: "pulp-bamboo-soaked", stackSize: 6 }
+	}
+]

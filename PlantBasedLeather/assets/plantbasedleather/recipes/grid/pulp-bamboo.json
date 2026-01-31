@@ -1,0 +1,13 @@
+[
+    {
+        ingredientPattern: "S,F,R",
+        ingredients: {
+            "R": { type: "block", code: "game:rock-*", name: "rock", allowedVariants: ["andesite", "granite", "peridotite", "basalt"], isTool: true, toolDurabilityCost: 0 },
+            "F": { type: "item", code: "game:block-sapling-*-free", quantity: 3 },
+            "S": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "granite", "peridotite", "basalt"], isTool: true, toolDurabilityCost: 0 }
+        },
+        width: 1,
+        height: 3,
+        output: { type: "item", code: "pulp-bamboo", quantity: 1 }
+    }
+]

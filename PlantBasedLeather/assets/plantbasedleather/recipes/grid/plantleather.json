@@ -1,0 +1,13 @@
+[
+	{
+		ingredientPattern: "HIF,CPR,PPP",
+		ingredients: {
+			"B": { type: "item", code: "bamboofiber", quantity: 2 },
+			"F": { type: "item", code: "plantbasedfat:plantbasedfat" },
+			"W": { type: "item", code: "game:plank-*", name: "wood", quantity: 3 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:fruitpress-ns", quantity: 1  }
+	},
+]
