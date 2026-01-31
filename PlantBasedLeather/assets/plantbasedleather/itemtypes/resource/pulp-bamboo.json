@@ -6,7 +6,10 @@
 	variantgroups: [
 		{ code: "type", states: ["bamboo", "bamboo-soaked" ] }
 	],
-	shape: { base: "item/resource/pulpbamboo" },
+	shapebytype: {
+		"*-bamboo": { base: "item/resource/pulpbamboo" },
+		"*-bamboo-soaked": { base: "item/resource/bamboo-fibers" }
+	},
 	texturesbyType: {
 		"*-bamboo": { "pulpbamboo": { base: "item/pulpbamboo/pulpbamboo" } },
 		"*-bamboo-soaked": { "pulpbamboo": { base: "item/pulpbamboo/pulpbamboo-soaked" } }

@@ -23,8 +23,6 @@
 					"name": "Main",
 					"from": [ -3.0, 0.0, -3.0 ],
 					"to": [ 3.0, 1.0, 3.0 ],
-					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
-					"rotationY": 135.0,
 					"faces": {
 						"north": { "texture": "#pulpbamboo", "uv": [ 4.0, 13.5, 10.0, 14.5 ] },
 						"east": { "texture": "#pulpbamboo", "uv": [ 8.0, 6.5, 9.0, 12.5 ], "rotation": 90 },

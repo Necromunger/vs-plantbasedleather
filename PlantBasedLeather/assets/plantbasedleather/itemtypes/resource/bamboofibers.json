@@ -1,6 +1,9 @@
 {
 	code: "bamboofibers",
-	shape: { base: "game:item/resource/flaxfibers" },
+	shape: { base: "item/resource/bamboo-fibers" },
+	textures: {
+		"pulpbamboo": { base: "item/pulpbamboo/pulpbamboo-fibers" }
+	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	behaviors: [
 		{ 
