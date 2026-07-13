@@ -1,0 +1,48 @@
+{
+	code: "plant-hide",
+	behaviors: [
+		{
+			name: "GroundStoredProcessable",
+			properties: {
+				processTime: 4,
+				remainingItem: { type: "item", code: "game:hide-scraped-medium" },
+				tool: "knife",
+				processingSound: "sounds/tool/groundcrafting/hidescrape*",
+				processingAnimationCode: "knifescrape",
+				interactionHelpCode: "groundstoredaction-scrape",
+				handbookProcessIntoTitle: "groundstoredscrapesdesc-title",
+				handbookCreatedByTitle: "handbook-createdby-groundstoredscraping"
+			}
+		},
+		{ name: "GroundStorable", properties: { layout: 'SingleCenter', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1, z2: 1 } } }
+	],
+	shape: { base: "item/plant-hide" },
+	textures: {
+		"furside": { base: "item/pulpbamboo/pulpbamboo-fibers" },
+		"fleshside": { base: "item/pulpbamboo/pulpbamboo-fibers" }
+	},
+	attributes: {
+		handbook: {
+			groupBy: ["plant-hide"]
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	materialDensity: 620,
+	maxstacksize: 32,
+	guiTransform: {
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.4, y: 0.5, z: 0.5 },
+		scale: 0.8
+	},
+	tpHandTransform: {
+		translation: { x: -1.26, y: -0.2, z: -1.24 },
+		rotation: { x: 0, y: 90, z: -77 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.4
+	},
+	groundTransform: {
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		rotation: { x: 0, y: 0, z: 0 },
+		scale: 4
+	}
+}

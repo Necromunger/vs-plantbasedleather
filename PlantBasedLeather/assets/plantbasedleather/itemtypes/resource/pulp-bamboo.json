@@ -4,15 +4,11 @@
 		{ name: "GroundStorable", properties: { layout: 'Messy12', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
 	],
 	variantgroups: [
-		{ code: "type", states: ["bamboo", "bamboo-soaked" ] }
+		{ code: "type", states: ["bamboo"] }
 	],
-	shapebytype: {
-		"*-bamboo": { base: "item/resource/pulpbamboo" },
-		"*-bamboo-soaked": { base: "item/resource/bamboo-fibers" }
-	},
-	texturesbyType: {
-		"*-bamboo": { "pulpbamboo": { base: "item/pulpbamboo/pulpbamboo" } },
-		"*-bamboo-soaked": { "pulpbamboo": { base: "item/pulpbamboo/pulpbamboo-soaked" } }
+	shape: { base: "item/resource/pulpbamboo" },
+	textures: {
+		"pulpbamboo": { base: "item/pulpbamboo/pulpbamboo" }
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	attributes: {
@@ -20,17 +16,6 @@
 		handbook: {
 			groupBy: ["pulp-*"]
 		}
-	},
-	transitionablePropsByType: {
-		"*-bamboo-soaked":	[
-			{
-				type: "Cure",
-				freshHours: { avg: 0 },
-				transitionHours: { avg: 2 },
-				transitionedStack: { type: "item", code: "bamboofibers" },
-				transitionRatio: 1
-			}
-		]
 	},
 	maxstacksize: 64,
 	materialDensity: 120,

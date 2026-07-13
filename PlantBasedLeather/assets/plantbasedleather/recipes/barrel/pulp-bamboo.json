@@ -1,20 +1,11 @@
 [
 	{
-		code: "pulp-bamboo-soaked",
-		sealHours: 8,
+		code: "soakedhide-pulp",
+		sealHours: 20,
 		ingredients: [
-			{ type: "item", code: "game:slakedlimeportion", litres: 10, consumelitres: 10 },
-			{ type: "item", code: "pulp-bamboo", quantity: 6 }
+			{ type: "item", code: "game:limewaterportion", litres: 4, consumeLitres: 4 },
+			{ type: "item", code: "pulp-bamboo", quantity: 5 }
 		],
-		output: { type: "item", code: "pulp-bamboo-soaked", stackSize: 6 }
-	},
-    {
-		code: "pulp-bamboo-soaked",
-		sealHours: 8,
-		ingredients: [
-			{ type: "item", code: "game:dilutedboraxportion", litres: 10, consumelitres: 10 },
-			{ type: "item", code: "pulp-bamboo", quantity: 6 }
-		],
-		output: { type: "item", code: "pulp-bamboo-soaked", stackSize: 6 }
+		output: { type: "item", code: "plant-hide", stackSize: 1 }
 	}
 ]
