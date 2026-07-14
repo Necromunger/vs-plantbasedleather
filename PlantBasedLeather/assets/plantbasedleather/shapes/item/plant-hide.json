@@ -5,8 +5,8 @@
     "attachments": []
   },
   "textures": {
-    "fleshside": "item/pulpbamboo/pulpbamboo-fibers",
-    "furside": "item/pulpbamboo/pulpbamboo-fibers"
+    "fleshside": "item/pulpbamboo/pulpbamboo-soaked",
+    "furside": "item/pulpbamboo/pulpbamboo-soaked"
   },
   "elements": [
     {

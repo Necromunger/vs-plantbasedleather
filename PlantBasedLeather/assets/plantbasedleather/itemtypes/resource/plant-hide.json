@@ -18,8 +18,8 @@
 	],
 	shape: { base: "item/plant-hide" },
 	textures: {
-		"furside": { base: "item/pulpbamboo/pulpbamboo-fibers" },
-		"fleshside": { base: "item/pulpbamboo/pulpbamboo-fibers" }
+		"furside": { base: "item/pulpbamboo/pulpbamboo-soaked" },
+		"fleshside": { base: "item/pulpbamboo/pulpbamboo-soaked" }
 	},
 	attributes: {
 		handbook: {
