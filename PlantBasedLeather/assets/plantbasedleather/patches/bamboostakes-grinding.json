@@ -3,7 +3,7 @@
 		op: "add",
 		path: "/grindingProps",
 		value: {
-			groundStack: { type: "item", code: "plantbasedleather:pulp-bamboo", stacksize: 2 }
+			groundStack: { type: "item", code: "plantfiberhide:pulp-bamboo", stacksize: 2 }
 		},
 		file: "game:itemtypes/resource/bamboostakes.json"
 	}
