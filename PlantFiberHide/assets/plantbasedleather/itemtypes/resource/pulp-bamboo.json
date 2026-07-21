@@ -1,10 +1,7 @@
 {
-	code: "pulp",
+	code: "pulp-bamboo",
 	behaviors: [
 		{ name: "GroundStorable", properties: { layout: 'Messy12', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
-	],
-	variantgroups: [
-		{ code: "type", states: ["bamboo"] }
 	],
 	shape: { base: "item/resource/pulpbamboo" },
 	textures: {
