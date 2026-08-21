@@ -7,7 +7,7 @@
         "Eiymii"
     ],
     "description": "Craft bamboo pulp into a soaked hide, a huntless alternative entry into the vanilla leather-making process",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependencies": {
         "game": ""
     }

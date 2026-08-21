@@ -1,0 +1,14 @@
+[
+	{
+		ingredientPattern: "H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"H": { type: "item", code: "plant-hide", quantity: 2 },
+		},
+		name: "largeplanthide",
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:hide-soaked-large", quantity: 1 }
+	}
+]

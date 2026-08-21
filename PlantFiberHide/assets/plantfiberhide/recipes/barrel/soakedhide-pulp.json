@@ -3,8 +3,17 @@
 		code: "soakedhide-pulp",
 		sealHours: 20,
 		ingredients: [
-			{ type: "item", code: "game:limewaterportion", litres: 10, consumeLitres: 10 },
-			{ type: "item", code: "pulp-bamboo", quantity: 10 }
+			{ type: "item", code: "game:limewaterportion", litres: 5, consumeLitres: 5 },
+			{ type: "item", code: "pulp-bamboo", quantity: 5 }
+		],
+		output: { type: "item", code: "plant-hide", stackSize: 1 }
+	},
+	{
+		code: "soakedhide-pulp",
+		sealHours: 18,
+		ingredients: [
+			{ type: "item", code: "game:dilutedboraxportion", litres: 5, consumeLitres: 5 },
+			{ type: "item", code: "pulp-bamboo", quantity: 5 }
 		],
 		output: { type: "item", code: "plant-hide", stackSize: 1 }
 	}

@@ -1,0 +1,15 @@
+[
+	{
+		ingredientPattern: "K,H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"K": { type: "item", tags: ["tool-knife"], isTool: true },
+			"H": { type: "item", code: "plant-hide", quantity: 1 },
+		},
+		name: "scrapedplanthide",
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-scraped-medium", quantity: 1 }
+	}
+]

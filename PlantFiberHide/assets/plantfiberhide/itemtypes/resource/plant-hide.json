@@ -7,7 +7,7 @@
 				processTime: 4,
 				remainingItem: { type: "item", code: "game:hide-scraped-medium" },
 				tool: "knife",
-				processingSound: "sounds/tool/groundcrafting/hidescrape*",
+				processingSound: "game:sounds/tool/groundcrafting/hidescrape*",
 				processingAnimationCode: "knifescrape",
 				interactionHelpCode: "groundstoredaction-scrape",
 				handbookProcessIntoTitle: "groundstoredscrapesdesc-title",
@@ -23,7 +23,7 @@
 	},
 	attributes: {
 		handbook: {
-			groupBy: ["plant-hide"]
+			groupBy: ["plant-hide*"]
 		}
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },

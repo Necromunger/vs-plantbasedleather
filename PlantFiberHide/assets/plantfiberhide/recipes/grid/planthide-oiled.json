@@ -1,0 +1,28 @@
+[
+	{
+		ingredientPattern: "F,H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"F": { type: "item", code: "game:fat-rendered", quantity: 1 },
+			"H": { type: "item", code: "plant-hide", quantity: 2 },
+		},
+		name: "oiledplanthide",
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-oiled-medium", quantity: 2 }
+	},
+	{
+		ingredientPattern: "F,H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"F": { type: "item", code: "game:fat-rendered", quantity: 1 },
+			"H": { type: "item", code: "plant-hide", quantity: 1 },
+		},
+		name: "oiledplanthide",
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-oiled-medium", quantity: 1 }
+	}
+]

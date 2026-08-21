@@ -1,4 +1,7 @@
 {
   "plantfiberhide:item-pulp-bamboo": "Bamboo pulp",
-  "plantfiberhide:item-plant-hide": "Soaked plant hide"
+  "plantfiberhide:item-plant-hide": "Soaked plant hide",
+  "plantfiberhide:recipe-scrapedplanthide": "Scraped plant hide",
+  "plantfiberhide:recipe-largeplanthide": "Large soaked hide",
+  "plantfiberhide:recipe-oiledplanthide": "Oiled plant hide"
 }
