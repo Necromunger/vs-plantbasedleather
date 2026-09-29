@@ -1,0 +1,29 @@
+[
+	//https://wiki.vintagestory.at/Hide
+	// 1 plant hide = 2 small soaked hide
+	{
+		ingredientPattern: "H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"H": { type: "item", code: "plant-hide", quantity: 1 },
+		},
+		name: "largeplanthide",
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:hide-soaked-small", quantity: 2 }
+	},
+	// 2 plant hide = 1 large soaked hide
+	{
+		ingredientPattern: "H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"H": { type: "item", code: "plant-hide", quantity: 2 },
+		},
+		name: "largeplanthide",
+		width: 1,
+		height: 1,
+		output: { type: "item", code: "game:hide-soaked-large", quantity: 1 }
+	}
+]
