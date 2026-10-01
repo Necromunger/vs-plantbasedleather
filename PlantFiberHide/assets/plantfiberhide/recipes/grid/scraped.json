@@ -1,11 +1,12 @@
 [
+	// 1 soaked plant hide + knife = medium scraped hide
 	{
 		ingredientPattern: "K,H",
 		enabled: true,
 		shapeless: true,
 		ingredients: {
 			"K": { type: "item", tags: ["tool-knife"], isTool: true },
-			"H": { type: "item", code: "plant-hide", quantity: 1 },
+			"H": { type: "item", code: "plant-hide", quantity: 1 }
 		},
 		name: "scrapedplanthide",
 		width: 1,

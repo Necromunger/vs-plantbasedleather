@@ -1,27 +1,42 @@
 [
 	//https://wiki.vintagestory.at/Pelt
-	// 1 fat + 1 plant hide = 1 medium oiled pelt
+	// 1 fat + 1 soaked plant hide + knife = 2 small oiled pelt
 	{
-		ingredientPattern: "F,H",
+		ingredientPattern: "F,H,K",
 		enabled: true,
 		shapeless: true,
 		ingredients: {
 			"F": { type: "item", code: "game:fat-rendered", quantity: 1 },
 			"H": { type: "item", code: "plant-hide", quantity: 1 },
+			"K": { type: "item", tags: ["tool-knife"], isTool: true }
 		},
 		name: "oiledplanthide",
 		width: 1,
 		height: 2,
 		output: { type: "item", code: "game:hide-oiled-medium", quantity: 1 }
 	},
-	// 1 fat + 2 plant hide = 1 large oiled pelt
+	// 1 fat + 1 soaked plant hide = 1 medium oiled pelt
 	{
 		ingredientPattern: "F,H",
 		enabled: true,
 		shapeless: true,
 		ingredients: {
 			"F": { type: "item", code: "game:fat-rendered", quantity: 1 },
-			"H": { type: "item", code: "plant-hide", quantity: 2 },
+			"H": { type: "item", code: "plant-hide", quantity: 1 }
+		},
+		name: "oiledplanthide",
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hide-oiled-medium", quantity: 1 }
+	},
+	// 1 fat + 2 soaked plant hide = 1 large oiled pelt
+	{
+		ingredientPattern: "F,H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"F": { type: "item", code: "game:fat-rendered", quantity: 1 },
+			"H": { type: "item", code: "plant-hide", quantity: 2 }
 		},
 		name: "oiledplanthide",
 		width: 1,
